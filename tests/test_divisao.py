@@ -8,10 +8,10 @@ def calc():
 
 @pytest.mark.parametrize("numerador, denominador, resultado_esperado", [
     (1, 2, 0.5),
-    (500, 5, 10),
+    (500, 5, 100),
     (80, 4, 20),
     (44, 44, 1),
-    (77, 66, 11),
+    (100, 4, 25),
 ])
 
 def test_divisao(calc, numerador, denominador, resultado_esperado):
